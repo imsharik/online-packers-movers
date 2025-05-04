@@ -54,14 +54,14 @@ gallery img {
   box-shadow: 0 4px 8px rgba(0,0,0,0.1);
 }
 
-.cards {
+cards {
   display: flex;
   gap: 20px;
   flex-wrap: wrap;
   justify-content: center;
 }
 
-.card {
+card {
   background: white;
   padding: 20px;
   border-radius: 12px;
@@ -75,7 +75,7 @@ nav a:hover {
   color: #ffe600;
 }
 
-.card:hover {
+card:hover {
   transform: scale(1.05);
   transition: 0.3s ease;
   box-shadow: 0 6px 12px rgba(0,0,0,0.15);
